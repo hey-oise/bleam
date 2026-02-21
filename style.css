@@ -1,0 +1,172 @@
+body {
+    background-color: #1e293b;
+    color-scheme: dark;
+    color: #64748b;
+}
+
+.alert {
+    background-color: #6366F100;
+    display: flex;
+    position: fixed;
+    right: 4px;
+    padding: 10px;
+    color: #6366F100;
+    border-radius: 7px;
+    animation: alert 1.5s ease-in
+}
+@keyframes alert {
+    from {
+    background-color: #8363F1;
+    color: #D5D5D5;
+    }
+    to {
+
+    }
+}
+.userCard {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profileParent {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.userProfilePic {
+    border-radius: 200px;
+    width: 150px;
+    box-shadow: #0000007A 3px 3px 3px 3px;
+}
+.userName {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f8fafc;
+}
+.info {
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    font-size: 13pt;
+    color: #746B80;
+}
+.accountInfo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 70px;
+    font-size: 13pt;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.actionBtns {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.followBtn,.connectBtn {
+    background-color: #22c55e;
+    width: 126px;
+    height: 47px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.2s;
+    box-shadow: #0000007A 2px 2px 2px 2px;
+}
+.connectBtn {
+    background-color: #6366f1;
+}
+.followBtn:active, .connectBtn:active {
+    transform: translate(2px, 2px);
+    box-shadow: #000000 0px 0px 0px 0px;
+}
+.followBtn:hover{
+    border: solid #6366f1 .2px;
+} .connectBtn:hover {
+    border: solid #22c55e .2px;
+}
+.rating {
+    background-color: #8363F14D;
+    backdrop-filter: blur(10px);
+    max-width: 370px;
+    padding: 40px;
+    border-radius: 40px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #0000007A 2px 2px 2px 2px;
+    color: white;
+}
+.langTxt {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 2px;
+    
+
+}
+
+.diagOut {
+    background-color: #1e293b;
+    width: 200px;
+    min-width: 85%;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+}
+.diagIn {
+    background-color: #22c55e;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: diagram 2s ease-in;
+}
+
+@keyframes diagram {
+    from {
+      width: 10px;
+    font-size: 0px;
+    }
+}
+ .xp {
+    background-color: #6366F14D;
+    backdrop-filter: blur(10px);
+    max-width: 370px;
+    padding: 40px;
+    border-radius: 40px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #0000007A 2px 2px 2px 2px;
+    color: white;
+}
+.projectHead {
+    color: #746B80;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
