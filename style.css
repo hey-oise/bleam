@@ -47,7 +47,7 @@ body {
 }
 .userName {
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #f8fafc;
 }
 .info {
